@@ -150,6 +150,56 @@
     font-size: 14px;
 }
 
+@media (max-width: 480px) {
+    
+    /* Stack nav links vertically */
+    ul#nav li {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* Make hero text smaller */
+    #hero h2 { font-size: 28px; }
+    #hero .hero-text { font-size: 16px; max-width: 90%; }
+
+    /* Buttons smaller */
+    .button { padding: 10px 18px; font-size: 14px; }
+
+    /* Container padding smaller */
+    .container { padding: 15px; margin: 10px; }
+
+    /* Table scrollable horizontally */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Contact form: stack fields vertically */
+    #contact form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    #contact form input[type="submit"] {
+        width: auto; /* keep submit button normal width */
+    }
+
+    /* Footer stacks vertically */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 
 </style>
