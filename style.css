@@ -99,3 +99,43 @@ th {
 tr:hover {
     background-color: #f7d9b9;
 }
+
+#footer {
+    background-color: #763B00;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+    font-family: 'Sofia';
+}
+
+.footer-container p {
+    margin: 3px 0;
+}
+
+.footer-container a img {
+    vertical-align: middle;
+    margin-top: 5px;
+    transition: transform 0.2s;
+}
+
+.footer-container a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-note {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
