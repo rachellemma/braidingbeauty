@@ -140,17 +140,16 @@ tr:hover {
 }
 
 @media (max-width: 480px) {
-    
-    /* Stack nav links vertically */
+
     ul#nav li {
-        display: block;
-        width: 100%;
-        padding: 10px 0;
+        display: inline-block; /* stay horizontal */
+        width: auto;            /* let them size automatically */
+        padding: 0 5px;         /* smaller padding */
     }
 
-    /* Make hero text smaller */
-    #hero h2 { font-size: 28px; }
-    #hero .hero-text { font-size: 16px; max-width: 90%; }
+    ul#nav li a {
+        font-size: 14px;        /* smaller font */
+    }
 
     /* Buttons smaller */
     .button { padding: 10px 18px; font-size: 14px; }
